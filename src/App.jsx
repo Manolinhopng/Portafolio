@@ -122,13 +122,15 @@ const App = () => {
       name: 'Crypto Dashboard',
       desc: lang === 'es' ? 'Visualización de estadísticas y precios de criptomonedas en tiempo real con gráficos interactivos.' : 'Real-time cryptocurrency statistics and price visualization with interactive charts.',
       tags: ['React', 'API', 'Charts.js'],
-      link: 'https://github.com/Manolinhopng/dashboardStatsCrypto'
+      link: 'https://github.com/Manolinhopng/dashboardStatsCrypto',
+      live: 'https://dashboard-stats-crypto.vercel.app/'
     },
     {
       name: 'Movie Search',
       desc: lang === 'es' ? 'Buscador de películas que consume la API de TMDB, permitiendo explorar detalles y calificaciones.' : 'Movie search engine consuming the TMDB API, allowing exploration of details and ratings.',
       tags: ['React', 'API Rest', 'Vite'],
-      link: 'https://github.com/Manolinhopng/movieSearch'
+      link: 'https://github.com/Manolinhopng/movieSearch',
+      live: 'https://movie-search-manolinhopng.vercel.app/'
     },
     {
       name: 'Meme Generator',
@@ -140,13 +142,15 @@ const App = () => {
       name: 'Mini E-commerce',
       desc: lang === 'es' ? 'Pequeña tienda virtual con carrito de compras y gestión de catálogo de productos.' : 'Small virtual store with a shopping cart and product catalog management.',
       tags: ['React', 'State Management'],
-      link: 'https://github.com/Manolinhopng/MiniEcommerce'
+      link: 'https://github.com/Manolinhopng/MiniEcommerce',
+      live: 'https://mini-ecommerce-manolinhopng.vercel.app/'
     },
     {
       name: 'To-Do List',
       desc: lang === 'es' ? 'Aplicación de gestión de tareas con persistencia en almacenamiento local y filtrado.' : 'Task management application with local storage persistence and filtering.',
       tags: ['React', 'Local Storage', 'CSS3'],
-      link: 'https://github.com/Manolinhopng/ToDoList'
+      link: 'https://github.com/Manolinhopng/ToDoList',
+      live: 'https://to-do-list-persisten.vercel.app/'
     }
   ];
 
