@@ -136,7 +136,8 @@ const App = () => {
       name: 'Meme Generator',
       desc: lang === 'es' ? 'Creador de memes interactivo con edición de texto dinámico y descarga de imágenes.' : 'Interactive meme creator with dynamic text editing and image download.',
       tags: ['React', 'Canvas API', 'CSS3'],
-      link: 'https://github.com/Manolinhopng/memeGenerator'
+      link: 'https://github.com/Manolinhopng/memeGenerator',
+      live: 'https://bad-meme-generator.vercel.app/'
     },
     {
       name: 'Mini E-commerce',
@@ -379,7 +380,7 @@ const App = () => {
       {/* Footer */}
       <footer className="footer">
         <div className="social-links">
-          <a href="http://www.linkedin.com/in/manuel-fernando-rendon-orrego-752a7b27a" target="_blank" rel="noreferrer"><Linkedin /></a>
+          <a href="http://www.linkedin.com/in/manuel-fernando-rendon-orrego" target="_blank" rel="noreferrer"><Linkedin /></a>
           <a href="https://github.com" target="_blank" rel="noreferrer"><Github /></a>
           <a href="mailto:rmanuelorrego@gmail.com"><Mail /></a>
         </div>
